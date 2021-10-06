@@ -1,5 +1,5 @@
 host: khemenu.thoth-station.ninja
-tls_verify: true
+tls_verify: false
 requirements_format: pipenv
 
 runtime_environments:
@@ -11,6 +11,8 @@ runtime_environments:
     recommendation_type: latest
 
 managers:
+  # add this to managers if we want to add python deps
+  # - name: pipfile-requirements
   - name: update
     configuration:
       labels: [bot]
@@ -18,10 +20,10 @@ managers:
   - name: version
     configuration:
       maintainers:
-        - fridex
-        - goern
+        - ChristianMeyndt
+        - idemir-ids
+        - erikerlandson
         - harshad16
-        - pacospace
       assignees:
         - sesheta
       labels: [bot]
