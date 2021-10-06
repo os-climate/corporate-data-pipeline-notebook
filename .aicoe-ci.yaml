@@ -6,7 +6,6 @@ check:
 build:
   build-strategy: Dockerfile
   dockerfile-path: Dockerfile
-  build-source-script: "image:///opt/app-root/builder"
   # base image defined by dockerfile
   # base-image: quay.io/thoth-station/s2i-lab-elyra:v0.0.13
   custom-tag: latest
