@@ -7,7 +7,6 @@ Thanks for your interest in contributing to `Thoth Station`.
 Before creating bug reports, please check a `list of known issues` to see
 if the problem has already been reported (or fixed in a master branch).
 
-
 **Note:** If you find a **Closed** issue that seems like it is the same thing that you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 You can also comment on the closed issue to indicate that upstream should provide a new release with a fix.
 
@@ -36,7 +35,6 @@ If you are introducing a new dependency, please make sure it's added to:
 
 If you want to update documentation, [README.md](README.md) is the file you're looking for.
 
-
 ### How to contribute code to Thoth-Station
 
 1. Create a fork of this repository.
@@ -64,8 +62,8 @@ There's a [pre-commit](https://pre-commit.com) config file in [.pre-commit-confi
 To [utilize pre-commit](https://pre-commit.com/#usage), install pre-commit with `pip3 install pre-commit` and then either:
 
 - `pre-commit install` - Install pre-commit into your [git hooks](https://githooks.com).
-pre-commit will run all the checkers/linters/formatters for every commit.
-If you want to commit without running it, just run `git commit` with `-n/--no-verify`.
+  pre-commit will run all the checkers/linters/formatters for every commit.
+  If you want to commit without running it, just run `git commit` with `-n/--no-verify`.
 - Or if you want to manually run all the checkers/linters/formatters, run `pre-commit run --all-files`.
 
 Thank you for your interest!
