@@ -37,6 +37,8 @@ If you want to update documentation, [README.md](README.md) is the file you're l
 
 ### How to contribute code to Thoth-Station
 
+`git` and `github` workflows provide many ways to interpret the following three steps.  The reference documentation for what these mean for this project is [here](https://gist.github.com/Chaser324/ce0505fbed06b947d962).  Reading that documentation and having a copy handy until it becomes second nature will save a lot of time working with upstream collaborators.
+
 1. Create a fork of this repository.
 2. Create a new branch just for the bug/feature you are working on.
 3. Once you have completed your work, create a Pull Request, ensuring that it meets the requirements listed below.
